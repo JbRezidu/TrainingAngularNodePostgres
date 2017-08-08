@@ -1,8 +1,8 @@
 "use strict";
 module.exports = {
-    USER: "postgres",
-    HOST: "localhost",
-    DATABASE_NAME: "testAngular",
-    PASSWORD: "admin",
-    PORT: 5432
+    user: "postgres",
+    host: "localhost",
+    database: "testAngular",
+    password: "admin",
+    port: 5432
 };
