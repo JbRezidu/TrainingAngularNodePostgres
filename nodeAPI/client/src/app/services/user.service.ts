@@ -7,7 +7,7 @@ export class UserService {
 
     constructor(private http: Http) { }
 
-    createUser(user): Promise<object> {
+    createUser(user): Promise<any> {
         console.log("test");
         return this.http
             .post('/api/user', user)
