@@ -1,0 +1,14 @@
+<div>
+    <form>
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <legend>Nom</legend>
+            <input type="text" placeholder="Nom" [(ngModel)]="user.lastName" name="lastName" />
+            <legend>Prénom</legend>
+            <input type="text" placeholder="Prénom" [(ngModel)]="user.firstName" name="firstName" />
+            <legend>Date de naissance</legend>
+            <input type="date" placeholder="Date de naissance" [(ngModel)]="user.birthDate" name="birthDate" />
+        </fieldset>
+        <button (click)="createAccount()">Créer mon compte</button>
+    </form>
+</div>
